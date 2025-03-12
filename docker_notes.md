@@ -13,4 +13,33 @@
 - 
 - 
 - 
--  
+- 
+
+##### docker login 
+- docker login
+```
+Docker Notes: docker login
+
+USING WEB-BASED LOGIN
+
+i Info → To sign in with credentials on the command line, use 'docker login -u <username>'
+
+
+Your one-time device confirmation code is: VRKV-ZDPW
+Press ENTER to open your browser or submit your device code here: https://login.docker.com/activate
+
+Waiting for authentication in the browser…
+
+WARNING! Your credentials are stored unencrypted in '/home/tamr/.docker/config.json'.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/go/credential-store/
+
+Login Succeeded
+``` 
+
+- docker logout 
+```
+Docker Notes: docker logout
+Removing login credentials for https://index.docker.io/v1/
+```
+
