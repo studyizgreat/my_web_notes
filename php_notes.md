@@ -316,3 +316,184 @@ OUTPUT
 string(1) "5"
 ```
 
+############################## W3Schools ########################
+
+
+### First Sample 
+```php 
+<!DOCTYPE html>
+<html>
+<body>
+ 
+<?php
+echo "My first PHP script!";
+?>
+
+</body>
+</html>
+```
+
+### Pre-requisite 
+What You Should Already Know
+Before you continue you should have a basic understanding of the following:
+
+- HTML
+- CSS
+- JavaScript
+
+### What is PHP 
+- PHP is an acronym for "PHP: Hypertext Preprocessor"
+- PHP is a widely-used, open source scripting language
+- PHP scripts are executed on the server
+- PHP is free to download and use
+
+### What PHP can do PHP can generate dynamic page content
+- PHP can create, open, read, write, delete, and close files on the server
+- PHP can collect form data
+- PHP can send and receive cookies
+- PHP can add, delete, modify data in your database
+- PHP can be used to control user-access
+- PHP can encrypt data
+
+### PHP editor
+```
+<?php
+$txt = "PHP";
+echo "I love $txt!";
+?>
+```
+
+### PHP version 
+```
+echo phpversion();
+```
+
+### Basic syntax 
+```
+<?php
+// PHP code goes here
+?>
+```
+
+- Note: PHP statements end with a semicolon (;).
+
+### PHP Case Sensitivity
+- In PHP, keywords (e.g. if, else, while, echo, etc.), classes, functions, and user-defined functions are not case-sensitive.
+```
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+ECHO "Hello World!<br>";
+echo "Hello World!<br>";
+EcHo "Hello World!<br>";
+?>
+
+</body>
+</html>
+```
+
+- Note: However; all variable names are case-sensitive!
+- $COLOR is not same as $color
+
+### Comments in PHP 
+Comments can be used to:
+
+- Let others understand your code
+- Remind yourself of what you did - Most programmers have experienced coming back to their own work a year or two later and having to re-figure out what they did. Comments can remind you of what you were thinking when you wrote the code
+- Leave out some parts of your code
+
+```
+// This is a single-line comment
+
+# This is also a single-line comment
+
+/* This is a
+multi-line comment */
+```
+
+### PHP Variables 
+- In PHP, a variable starts with the $ sign, followed by the name of the variable
+- Note: When you assign a text value to a variable, put quotes around the value.
+- Note: Unlike other programming languages, PHP has no command for declaring a variable. It is created the moment you first assign a value to it.
+
+##### Rules for PHP variables:
+
+- A variable starts with the $ sign, followed by the name of the variable
+- A variable name must start with a letter or the underscore character
+- A variable name cannot start with a number
+- A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
+- Variable names are case-sensitive ($age and $AGE are two different variables)
+- Remember that PHP variable names are case-sensitive!
+
+### Output Variables
+The PHP echo statement is often used to output data to the screen.
+
+``` 
+$txt = "W3Schools.com";
+echo "I love $txt!";
+```
+- Below and Above both have the same output 
+```
+$txt = "W3Schools.com";
+echo "I love " . $txt . "!";
+```
+
+- Below will produce the calculation of two numbers 
+```
+$x = 5;
+$y = 4;
+echo $x + $y;
+```
+
+### PHP is a Loosely Typed Language
+- PHP automatically associates a data type to the variable, depending on its value. Since the data types are not set in a strict sense, you can do things like adding a string to an integer without causing an error.
+- In PHP 7, type declarations were added. This gives an option to specify the data type expected when declaring a function, and by enabling the strict requirement, it will throw a "Fatal Error" on a type mismatch.
+
+##### Variable Types 
+```
+$x = 5;      // $x is an integer
+$y = "John"; // $y is a string
+echo $x;
+echo $y;
+```
+
+##### Supported Data types 
+PHP supports the following data types:
+
+- String
+- Integer
+- Float (floating point numbers - also called double)
+- Boolean
+- Array
+- Object
+- NULL
+- Resource
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
