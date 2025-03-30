@@ -471,7 +471,32 @@ PHP supports the following data types:
 - NULL
 - Resource
 
+### Get the type 
+- var_dump()
+```
+$x = 5;
+var_dump($x);
+```
 
+```
+var_dump(5);
+var_dump("John");
+var_dump(3.14);
+var_dump(true);
+var_dump([2, 3, 56]);
+var_dump(NULL);
+```
+
+### Assign a string to a variable 
+``` 
+$x = "John";
+echo $x;
+```
+
+### assign same value to multiple variables 
+```
+$x = $y = $z = "Fruit";
+```
 
 
 
